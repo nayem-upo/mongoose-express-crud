@@ -1,4 +1,3 @@
-// users.models.ts
 import { Model, Schema, model } from "mongoose";
 import { UserInterfaceIUser, TOrder } from "./users/users.interface";
 
