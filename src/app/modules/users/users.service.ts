@@ -1,4 +1,3 @@
-// users.service.ts
 import { UserModel } from "../users.models";
 import { TOrder, UserInterfaceIUser } from "./users.interface";
 
