@@ -75,7 +75,7 @@ const calculateTotalPrice = async (userId: number) => {
     const totalPrice = orders.reduce((total, order) => {
         return total + (order.price * order.quantity);
     }, 0)
-    return { totalPrice };
+    return totalPrice;
 }
 
 export const userServices = {
