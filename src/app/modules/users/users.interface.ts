@@ -1,4 +1,3 @@
-// users.interface.ts
 export type TOrder = {
     productName: string;
     price: number;
